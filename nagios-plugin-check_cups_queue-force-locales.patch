@@ -1,0 +1,10 @@
+--- check_cups_queue.txt	2008-03-05 10:30:14.000000000 +0100
++++ check_cups_queue-fix-locales.txt	2008-03-05 10:30:37.000000000 +0100
+@@ -9,6 +9,7 @@
+ # print queue. It will provide the size of the queue
+ # and optionally the age of the queue
+ #
++export LC_ALL=C
+ 
+ # Location of the lpstat command (if not in path)
+ LPSTAT="/usr/bin/lpstat"

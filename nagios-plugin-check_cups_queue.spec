@@ -26,7 +26,7 @@ will provide the size of the queue and optionally the age of the queue
 %prep
 %setup -qcT
 install %{SOURCE0} .
-%patch0 -p0
+%patch -P0 -p0
 
 cat > nagios.cfg <<'EOF'
 # Usage:
